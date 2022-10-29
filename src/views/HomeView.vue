@@ -172,6 +172,9 @@ section {
   font-weight: 700;
   padding-bottom: 0.5rem;
 }
+.headline:hover{
+  color: var(--softorange);
+}
 .blurb {
   color: var(--grayishblue);
 }
@@ -220,5 +223,11 @@ color: var(--verydarkblue);
 }
 .content{
   color: var(--darkgrayblue);
+}
+.text button:hover{
+  background: var(--verydarkblue);
+}
+.content h4:hover{
+color: var(--softred);
 }
 </style>

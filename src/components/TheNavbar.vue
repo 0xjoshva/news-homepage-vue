@@ -4,11 +4,11 @@
         <img src="../assets/logo.svg" alt="">
 
         <div class="links">
-            <router-link to="/">Home</router-link>
-            <router-link to="/lol">New</router-link>
-            <router-link to="/lol">Popular</router-link>
-            <router-link to="/lol">Trending</router-link>
-            <router-link to="/lol">Categories</router-link> 
+            <router-link to="/" class="router-link">Home</router-link>
+            <router-link to="/lol" class="router-link">New</router-link>
+            <router-link to="/lol" class="router-link">Popular</router-link>
+            <router-link to="/trending" class="router-link">Trending</router-link>
+            <router-link to="/lol" class="router-link">Categories</router-link> 
         </div>
     </nav>
     </section>
@@ -38,15 +38,19 @@ export default {
     .links{
         display: flex;
         column-gap: 3rem;
+        color: white;
     }
-    .links a{
-    color:var(--darkgrayblue);
+    .router-link{
+    color: var(--darkgrayblue);
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     text-decoration: none;
     }
    
     .router-link-active{
+        color: var(--softred);
+    }
+    .router-link-exact-active{
         color: var(--softred);
     }
 </style>
