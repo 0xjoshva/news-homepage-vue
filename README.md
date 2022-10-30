@@ -1,19 +1,63 @@
-# news-homepage
+# Frontend Mentor - News homepage solution
 
-## Project setup
-```
-npm install
-```
+This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Table of contents
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- [Frontend Mentor - News homepage solution](#frontend-mentor---news-homepage-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+    - [Useful resources](#useful-resources)
+  - [Author](#author)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
+- **Bonus**: Toggle the mobile menu (requires some JavaScript)
+
+### Screenshot
+
+![](/src/assets/preview.png)
+
+### Links
+
+- Solution URL: [https://www.frontendmentor.io/solutions/news-homepage-made-with-flexbox-and-vuejs-qvi6egUp7z](https://www.frontendmentor.io/solutions/news-homepage-made-with-flexbox-and-vuejs-qvi6egUp7z)
+- Live Site URL: [https://resplendent-pasca-53dfde.netlify.app/#/](https://resplendent-pasca-53dfde.netlify.app/#/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS
+- Flexbox
+- [Vue.js](https://vuejs.org/) - Vue Framework
+
+### What I learned
+
+- learnt how to make a grid layout using flexbox
+
+### Continued development
+
+I need to add responsivess for mobile and tablet screensizes.
+
+### Useful resources
+
+- [Vue.js Documentation](https://vuejs.org/guide/introduction.html) - This helped me grasp new concepts aswell as implement them into my project quickly.
+
+## Author
+
+- Website - [Joshua Steed](https://www.joshuasteed.com)
+- Frontend Mentor - [@0xjoshva](https://www.frontendmentor.io/profile/0xjoshva)
